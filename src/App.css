@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -1px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.pokemon-app {
+  border-radius: 30px;
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 40px;
+  background-color: #23486A;
+  color: white;
+}
+
+form {
+  font-size: 1.4em;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+button {
+  font-size: 1em;
+  margin: 30px 0px;
+  background-color: #d03d0b;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+label {
+  padding: 10px 0px;
+  display: block;
+}
+
+select {
+  width: 100%;
+  font-size: 1.5em;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  padding: 5px;
+}
+
+:focus-visible {
+  outline: none;
+  border: 3px solid #fab12f;
+}
+
+.weather {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: black;
+}
+
+.pokemon {
+  margin: 0 auto;
+}
+
+.pokemon img {
+  margin: 100px auto;
+  width: 100%;
+
+  border-radius:90px;
+  background-color: lightblue;
+  display: block;
+}
