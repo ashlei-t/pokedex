@@ -77,8 +77,8 @@ h3 {
 .pokemon img {
   margin: 100px auto;
   width: 100%;
-
+  background-image: linear-gradient(0deg, white 50%, lightblue 50%);
+  background-size: 10px 10px;
   border-radius:90px;
-  background-color: lightblue;
   display: block;
 }
